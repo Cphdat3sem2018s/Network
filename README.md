@@ -1,81 +1,78 @@
-# HTTP, HTTPS, Virtualization, Network, Sockets and Socket Programming
+# Network and Virtualization/production
 
-### Day 1 HTTP continued from period-1 
-Headers, Caching, HTTP Sessions and how they are implemented, Cookies and CORS
-
-### Day 2 Fundamental Network Topics
-The TCP/IP stack, DNS, Routers, DHCP, Load Balancing, Virtualization
-
-### Day 3 Sockets and Socket Programming
-Sockets Ports and IP-numbers. Socket Programming (TCP and UDP)
-
-### Day 4 Final Digital Ocean setup for this semester
-SSL and HTTPS intro. How to set up DO with a domanin name, Nginx and SSL
-
-### Day 5 - Study point exercises
-
-## Learning objectives
-- Understand and use properties in the HTTP protocol, like Headers, Caching, HTTP Sessions and Cookies
-- Understand the Same Origin Policy related to REST and how to solve problems using CORS
-- Understand, at a conceptual level, the concepts in the underlying structure of the internet
-- Understand the Concepts Ports and IP and the Protocols TCP and UDP.
-- Know how to implement simple, multi-threaded, TCP (UDP) servers in Java
-- Understand the concept Virtualization 
-- Understand and Implement modern Server Architectures 
-- Understand and use concepts required to setup a Server with a domain name, Reverse Proxy and SSL
+## Learning Goals
+  * Understand and use properties in the HTTP protocol (like Headers, caching,
+    sessions and cookies)
+  * Understand the same-origin policy related to REST and how to solve problems
+    using CORS
+  * Understand the concept Virtualization 
+  * Understand and use x-as-a-service platforms
+  * Understand and use concepts required to setup a Server with a domain name,
+    Reverse Proxy and TLS 
+  * Understand, conceptually, the workings of asymmetric encryption, signatures
+    and certificates, with respect to TLS
 
 ## Business competences
 This week will provide students with:
-- The necessary background to implement and code user defined network protocols on top of TCP or UDP.
-- The minimal network knowledge, required to setup a Web Server Infrastructure used by a professional web-application
+  * Knowledge of the http protocol, including relevant practical aspects such as
+    setting up HTTPS, reverse-proxying, and CORS.
 
+## Plan (starting from Tuesday)
 
-## Exercises 
-- [Day-1](https://docs.google.com/document/d/1OjKW7PGWn231x4mWqhDNtBqTfZGlrS7a21io--BnGLA/edit?usp=sharing)
-- [Day-2](https://docs.google.com/document/d/139JaYYO1y8S4ghWfkvBJlJji6nKZq6RqEQ35yQIkwtw/edit?usp=sharing)
-- [Day-3 (Java Socket Programming](https://docs.google.com/document/d/1q2gcCyZKuPPhJOq83k5EPGaarVFUjXktNf-6BFWFl00/edit?usp=sharing)
-- [Setup your Droplet (and leave it running until after the exam) as explained here](https://docs.google.com/document/d/1dhdOmyrq2JQc-MxIgn-IsSq3if1crjPbgeFLy7vmWcw/edit)
+### Day 1 HTTP
+Headers, Caching, HTTP Sessions and how they are implemented, cookies, and CORS
 
-## Resources: 
-### Day-1
-Read/Skim the first 16 pages in the first document below (by know it should be familar stuff)
+- [HTTP](http://www.tutorialspoint.com/http/http_tutorial.pdf)  
+  This seems long, but has relatively few words per page. Read:
+    * Chapters: 1,3-6  
+    * Chapter 7 and 8 are good look-up resources for status codes and headers
+      respectively. It will benefit you to just read the 1/2 page introductions
+      to each of them, and then know that you can use them as references as
+      needed in the future.
+- [Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)  
+  introduction and sections 2-5.
+- [Same Origine Policy](https://en.wikipedia.org/wiki/Same-origin_policy)  
+  introduction and sections: 1-4.
+- [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)  
+  introduction and sections 1-4.
+<!--
+- [Slides](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=05f956c9304fe4b3b9ef5e626ce1df3bd&authkey=AfFUG-AXhD79TJgI9sDhnxY)
+  introduction and sections 1-4.
+  -->
 
-Skim the rest of the articles as backgrund for the individual HTTP exercises
-- [HTTP](http://www.tutorialspoint.com/http/http_tutorial.pdf)
-- [Same Origine Policy](https://en.wikipedia.org/wiki/Same-origin_policy)
-- [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)
-- [Cookies](https://en.wikipedia.org/wiki/HTTP_cookie) 
-### Day-2
-Before anything else you MUST [watch this video](https://www.youtube.com/watch?v=ub1o0M_DizM). It's a bit outdated, but still one of the most genius educational videos ever made
+### Day 2 HTTP continued
+HTTPS, nginx, TLS, Cryptography.
+- [Reverse Proxy (Nginx)](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
+- [Reverse Proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
+<!--
+- [Slides - Security](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=05cfcb6e243cb42df92f8371a2309df51&authkey=AcelND1RJpsVizwj29ihBSI)
+- [Slides - Virtualisering og "Skyen"](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=0f6157ac2da914f33ab1d46c082764c4f&authkey=AYcPnc2BWhlLoHiYvqKhmIw)
+-->
 
-Read the first article to get an idea about the TCP/IP Protocol Stack (a complete understanding of this stack could take a full period)
-- [TCP/IP Protocol Fundamentals Explained with a Diagram](http://www.thegeekstuff.com/2011/11/tcp-ip-fundamentals)
-- [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System)
+### Day 3 Virtualisation and architecture
+Virtualisation, architecture, x-as-a-service, tomcat.
 
-These are practiacal tools which you should know about (what can each of them can do). We don't provide references, but use Google (before and during) the lesson:
-- nslookup
-- ipconfig   (MAC/Linux     ifconfig)
-- Ping
-- Netstat
-- TraceRoute (Windows tracert)
-- Telnet
-
-### Day-3
-- [Socket Progamming in Java (video)](https://www.youtube.com/watch?v=3YoKVswJsKI) If you like a Visual Presentaion of a problem, you should really watch this video before todays lecture
-- [All About Sockets](https://docs.oracle.com/javase/tutorial/networking/sockets/index.html) (Oracle Tutorial)
-- [A guide to Java Sockets](http://www.baeldung.com/a-guide-to-java-sockets) (Read, Code and understand this example, and you will know what you need to know for CA-2)
-
-### Day-4
-#### Part-1 X as a Service (using the Cloud)
 - [Infrastructure as a Service](https://www.ibm.com/developerworks/cloud/library/cl-cloudservices1iaas/index.html)
 - [Platform as a Service](https://www.ibm.com/developerworks/cloud/library/cl-cloudservices2paas/index.html)
 
-#### Part-2 Web Server Architectures 
-- [Reverse Proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
-- [Reverse Proxy (Nginx)](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
-
- 
+### Day 4 SP-exercise / Final Digital Ocean setup for this semester
+TLS and HTTPS. How to set up DO with a domanin name, Nginx and TLS
 
 
+## Exercises 
+**To come**
 
+<!--
+| Level | Expectation |
+| ------ | ----------- |
+| Green | Ex1.1-5 Ex2.1-2, Ex2.4 Ex2.5 (except c) Ex3|
+| Yellow | Ex1.6 Ex2.3 (except d.3) Ex2.5.c.1|
+| Red | Ex1.7 Ex2.3.d Ex2.5.c.2|
+
+  * [Day-1](https://docs.google.com/document/d/1OjKW7PGWn231x4mWqhDNtBqTfZGlrS7a21io--BnGLA/edit?usp=sharing)
+  * [Day-2](https://docs.google.com/document/d/139JaYYO1y8S4ghWfkvBJlJji6nKZq6RqEQ35yQIkwtw/edit?usp=sharing)
+  * [Day-3 (Java Socket Programming](https://docs.google.com/document/d/1q2gcCyZKuPPhJOq83k5EPGaarVFUjXktNf-6BFWFl00/edit?usp=sharing)
+  * [Setup your Droplet (and leave it running until after the exam) as explained
+    here](https://docs.google.com/document/d/1dhdOmyrq2JQc-MxIgn-IsSq3if1crjPbgeFLy7vmWcw/edit)
+-->
 
