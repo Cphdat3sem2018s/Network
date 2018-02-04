@@ -55,7 +55,7 @@ Virtualisation, architecture, x-as-a-service, tomcat.
 - [Infrastructure as a Service](https://www.ibm.com/developerworks/cloud/library/cl-cloudservices1iaas/index.html)
 - [Platform as a Service](https://www.ibm.com/developerworks/cloud/library/cl-cloudservices2paas/index.html)
 
-### Day 4 SP-exercise / Final Digital Ocean setup for this semester
+### Day 4 SP-exercise / Digital Ocean setup
 TLS and HTTPS. How to set up DO with a domanin name, Nginx and TLS
 
 
