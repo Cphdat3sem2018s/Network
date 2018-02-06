@@ -68,8 +68,9 @@ TLS and HTTPS. How to set up DO with a domanin name, Nginx and TLS
 | Green | Ex1.1-5 Ex2.1-2, Ex2.4 Ex2.5 (except c) Ex3|
 | Yellow | Ex1.6 Ex2.3 (except d.3) Ex2.5.c.1|
 | Red | Ex1.7 Ex2.3.d Ex2.5.c.2|
-
+-->
   * [Day-1](https://docs.google.com/document/d/1OjKW7PGWn231x4mWqhDNtBqTfZGlrS7a21io--BnGLA/edit?usp=sharing)
+  <!--
   * [Day-2](https://docs.google.com/document/d/139JaYYO1y8S4ghWfkvBJlJji6nKZq6RqEQ35yQIkwtw/edit?usp=sharing)
   * [Day-3 (Java Socket Programming](https://docs.google.com/document/d/1q2gcCyZKuPPhJOq83k5EPGaarVFUjXktNf-6BFWFl00/edit?usp=sharing)
   * [Setup your Droplet (and leave it running until after the exam) as explained
