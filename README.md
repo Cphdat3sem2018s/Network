@@ -19,7 +19,7 @@ This week will provide students with:
 
 ## Plan (starting from Tuesday)
 
-### Day 1 HTTP
+### [Day 1](Day1) HTTP
 Headers, Caching, HTTP Sessions and how they are implemented, cookies, and CORS
 
 - [HTTP](http://www.tutorialspoint.com/http/http_tutorial.pdf)  
@@ -35,25 +35,27 @@ Headers, Caching, HTTP Sessions and how they are implemented, cookies, and CORS
   introduction and sections: 1-4.
 - [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing)  
   introduction and sections 1-4.
+- [slides](Day1/HTTP.pdf)
 <!--
 - [Slides](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=05f956c9304fe4b3b9ef5e626ce1df3bd&authkey=AfFUG-AXhD79TJgI9sDhnxY)
   introduction and sections 1-4.
   -->
 
-### Day 2 HTTP continued
-HTTPS, nginx, TLS, Cryptography.
+### [Day 2](Day2) HTTP continued
+HTTPS, nginx, TLS, Cryptography, DNS.
 - [Reverse Proxy (Nginx)](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
 - [Reverse Proxy](https://en.wikipedia.org/wiki/Reverse_proxy)
-<!--
-- [Slides - Security](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=05cfcb6e243cb42df92f8371a2309df51&authkey=AcelND1RJpsVizwj29ihBSI)
-- [Slides - Virtualisering og "Skyen"](https://efif.sharepoint.com/sites/cph/Lyngby/_layouts/15/guestaccess.aspx?docid=0f6157ac2da914f33ab1d46c082764c4f&authkey=AYcPnc2BWhlLoHiYvqKhmIw)
--->
+- [slides https](Day2/NetworkSecurity.pdf)
+- [slides dns](Day2/dns.pdf)
 
 ### Day 3 Virtualisation and architecture
 Virtualisation, architecture, x-as-a-service, tomcat.
 
 - [Infrastructure as a Service](https://www.ibm.com/developerworks/cloud/library/cl-cloudservices1iaas/index.html)
 - [Platform as a Service](https://www.ibm.com/developerworks/cloud/library/cl-cloudservices2paas/index.html)
+<!--
+- [slides](Day3/virtualization.pdf)
+-->
 
 ### Day 4 SP-exercise / Digital Ocean setup
 TLS and HTTPS. How to set up DO with a domanin name, Nginx and TLS
