@@ -62,7 +62,6 @@ TLS and HTTPS. How to set up DO with a domanin name, Nginx and TLS
 
 
 ## Exercises 
-**More to come**
 
 <!--
 | Level | Expectation |
