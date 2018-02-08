@@ -62,8 +62,8 @@ Virtualisation, architecture, x-as-a-service, tomcat.
 - [slides](Day3/virtualization.pdf)
 
 ### Day 4 SP-exercise / Digital Ocean setup
-TLS and HTTPS. How to set up DO with a domanin name, Nginx and TLS
-
+Finish server setup if you haven't.
+New exercise sheet for CORS.
 
 ## Exercises 
 
